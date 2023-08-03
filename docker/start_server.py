@@ -2,6 +2,7 @@ import subprocess
 import time
 
 print("Starting backend.....")
+time.sleep(25)
 
 SERVER_PORT = 9001
 SERVER_HOST = "0.0.0.0"
