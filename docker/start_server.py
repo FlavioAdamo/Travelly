@@ -1,4 +1,7 @@
 import subprocess
+import time
+
+print("Starting backend.....")
 
 SERVER_PORT = 9001
 SERVER_HOST = "0.0.0.0"

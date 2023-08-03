@@ -51,7 +51,6 @@ pyasn1-modules==0.3.0
 pycairo==1.24.0
 pycparser==2.21
 PyGObject==3.36.0
-pygraphviz==1.5
 PyJWT==2.7.0
 pyparsing==3.0.9
 python-apt==2.0.1+ubuntu0.20.4.1

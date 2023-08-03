@@ -65,7 +65,7 @@ The request body should include a JSON object with trip details:
 ```json
 {
 	"title": "Italy Trip",
-	"participants": [2, 3],
+	"participants": [],
 	"start_date": "2023-08-01",
 	"end_date": "2023-08-15",
 	"budget": "2000.00"

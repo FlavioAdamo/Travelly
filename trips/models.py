@@ -6,7 +6,7 @@ from django.db import models
 class Trip(models.Model):
    title = models.CharField(max_length=200)
    user = models.ForeignKey(User, on_delete=models.CASCADE)
-   participants = models.ManyToManyField(User, related_name="participant_trips")
+   participants = models.ManyToManyField(User, related_name="participant_trips", db_index=True, blank=True, null=True)
    start_date = models.DateField()
    end_date = models.DateField()
    budget = models.DecimalField(max_digits=10, decimal_places=2)
